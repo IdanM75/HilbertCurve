@@ -13,12 +13,12 @@ This project implements a Hilbert curve structure, triangle Hilbert curve, and c
 * ColorGradient.* gets number of colors and creates a gradient between them
 * Point.* represent a single point in the 2d plane
 * Line.* represent a line in the 2d plane
- * LineWithPos is a line with direction
+  * LineWithPos is a line with direction
 * Curve.* is an abstract template which all the curves will inherit from
- * HilbertCurve.* implementation of Hilbert curve
-  * HilbertCurveColor.* Abstract class of colored Hilbert curve
-   * HilbertCurveColorLine.* implementation of Hilbert curve with colored lines
-   * HilbertCurveColorPoints.* implementation of Hilbert curve with colored points
- * TriangleHilbertCurve.* implementation of triangle Hilbert curve
+  * HilbertCurve.* implementation of Hilbert curve
+    * HilbertCurveColor.* Abstract class of colored Hilbert curve
+     * HilbertCurveColorLine.* implementation of Hilbert curve with colored lines
+     * HilbertCurveColorPoints.* implementation of Hilbert curve with colored points
+  * TriangleHilbertCurve.* implementation of triangle Hilbert curve
 * HilbertCurveState.hse save the state of the current objects
    
