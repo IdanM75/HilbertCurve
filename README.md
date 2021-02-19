@@ -22,3 +22,8 @@ This project implements a Hilbert curve structure, triangle Hilbert curve, and c
   * TriangleHilbertCurve.* implementation of triangle Hilbert curve
 * HilbertCurveState.hse save the state of the current objects
    
+## Algorithem Explanation
+The goal of Hilbert curve is to map a 2d area with a 1d line, so its deals with infinity. <br />
+for more explanation, you can watch the [3Blue1Brown Youtube video](https://www.youtube.com/watch?v=3s7h2MHQtxc&t=530s).<br />
+The Curves were implemented as fractals, and with each evolution, the fractal becomes more detailed.
+I used the iteration method to calculate the sizes and start points of the fractals.
