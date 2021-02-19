@@ -17,8 +17,8 @@ This project implements a Hilbert curve structure, triangle Hilbert curve, and c
 * Curve.* is an abstract template which all the curves will inherit from
   * HilbertCurve.* implementation of Hilbert curve
     * HilbertCurveColor.* Abstract class of colored Hilbert curve
-     * HilbertCurveColorLine.* implementation of Hilbert curve with colored lines
-     * HilbertCurveColorPoints.* implementation of Hilbert curve with colored points
+       * HilbertCurveColorLine.* implementation of Hilbert curve with colored lines
+       * HilbertCurveColorPoints.* implementation of Hilbert curve with colored points
   * TriangleHilbertCurve.* implementation of triangle Hilbert curve
 * HilbertCurveState.hse save the state of the current objects
    
